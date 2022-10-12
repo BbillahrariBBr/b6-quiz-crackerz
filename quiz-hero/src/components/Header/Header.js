@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav className="flex justify-around items-center bg-gradient-to-r from-indigo-500 h-12">
+        <nav className="flex justify-around items-center bg-gradient-to-r from-indigo-500 h-12 sticky top-0">
             <div>
                 <Link className="text-4xl text-white hover:text-indigo-700 font-extrabold" to='/'> Quiz Hero </Link>
             </div>

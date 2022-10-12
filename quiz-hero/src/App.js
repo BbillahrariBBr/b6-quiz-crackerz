@@ -1,9 +1,18 @@
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+import Main from './layout/Main';
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Main></Main>
+    }
+  ])
   return (
     <div className="App">
-      <h3 className='text-xl font-bold'>Start Milestone 9</h3>
+      {/* <Main></Main> */}
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

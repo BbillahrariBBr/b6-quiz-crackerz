@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Statistics from './components/Statistics/Statistics';
 import Main from './layout/Main';
+import Eror404 from './components/Eror404/Eror404';
 
 function App() {
   const router = createBrowserRouter([
@@ -31,7 +32,8 @@ function App() {
           element: <About></About>
         }
       ]
-    }
+    },
+    { path: '*', element: <Eror404></Eror404> },
   ])
   return (
     <div className="App">

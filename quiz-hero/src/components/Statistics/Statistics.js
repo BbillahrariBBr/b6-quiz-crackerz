@@ -12,7 +12,7 @@ const Statistics = () => {
     // console.log(typeof (data[0]));
     // console.log(data);
     return (
-        <div>
+        <div className='mt-3 p-3'>
             <ResponsiveContainer width="95%" height={400}>
                 <LineChart width={500} height={400} data={d}
                     margin={{
@@ -30,7 +30,7 @@ const Statistics = () => {
 
                 </LineChart>
             </ResponsiveContainer>
-            <p>Statistics page</p>
+
         </div>
     );
 };

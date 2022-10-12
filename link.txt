@@ -3,5 +3,5 @@ b6-quiz-crackerz
 
 repo link: https://github.com/programming-hero-web-course2/b6-quiz-crackerz-BbillahrariBBr
 
-live site link: 
+live site link: https://quizhero.netlify.app/ 
 

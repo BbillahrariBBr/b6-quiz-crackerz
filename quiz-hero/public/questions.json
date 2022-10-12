@@ -1,0 +1,20 @@
+[
+  {
+    "id": "6334697f5e04",
+    "index": 0,
+    "ans": "React Router is an API for React applications.React Router uses dynamic routing. React Router, and dynamic, client-side routing, allows us to build a single-page web application with navigation without the page refreshing as the user navigates. React Router uses component structure to call components, which display the appropriate information.",
+    "qus": "What is the purpose of React Router"
+  },
+  {
+    "id": "6334697f97c3",
+    "index": 1,
+    "ans": "Context API is a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease. It returns a consumer and a provider. Provider is a component that as it's names suggests provides the state to its children. It will hold the 'store' and be the parent of all the components that might need that store. Consumer as it so happens is a component that consumes and uses the state.",
+    "qus": "How does context API Works?"
+  },
+  {
+    "id": "6334697fc79f",
+    "index": 2,
+    "ans": "useRef is one of the standard hooks provided by React. It will return an object that you can use during the whole lifecycle of the component.The main use case for the useRef hook is to access a DOM child directly. I’ll show exactly how to do that in another section.Although accessing the DOM is the main use case, it doesn’t mean it’s the only one! useRef can also be very useful to hold a mutable value across different renders of your component. For example, it’s often quite handy when using external libraries that weren’t made with React in mind",
+    "qus": "How To Use React useRef?"
+  }
+]

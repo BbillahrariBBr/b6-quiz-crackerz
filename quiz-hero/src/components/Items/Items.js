@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Items.css'
 
-const Items = ({ item }) => {
-    const { name, logo, total } = item
+const Items = ({ item, handleClick }) => {
+    const { id, name, logo, total } = item
     return (
 
         <div className="wrapper text-gray-900  m-4 p-4 rounded-lg ">
@@ -24,7 +25,7 @@ const Items = ({ item }) => {
                         <h4 className="mt-1 text-xl font-semibold uppercase leading-tight truncate">{name}</h4>
 
                         <div className="mt-4">
-                            <span className="text-teal-600 text-md font-semibold"><button className='btn'>Start Practice</button></span>
+                            <span className="text-teal-600 text-md font-semibold"><button className='btn'><Link to={`/quiz/${id}`}> Start Practice </Link></button></span>
                         </div>
                     </div>
                 </div>

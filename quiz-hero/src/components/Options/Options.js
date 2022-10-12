@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Options = ({ quiz }) => {
-    const { correctAnswer, id, question, options } = quiz;
+    const { correctAnswer, question, options } = quiz;
     const eyeButtonClicked = (ans) => {
         alert(ans)
     }

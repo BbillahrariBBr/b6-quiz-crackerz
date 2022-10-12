@@ -25,7 +25,7 @@ const Items = ({ item, handleClick }) => {
                         <h4 className="mt-1 text-xl font-semibold uppercase leading-tight truncate">{name}</h4>
 
                         <div className="mt-4">
-                            <span className="text-teal-600 text-md font-semibold"><button className='btn'><Link to={`/quiz/${id}`}> Start Practice </Link></button></span>
+                            <span className="text-teal-600 text-md font-semibold"><Link to={`/quiz/${id}`}><button className='btn'>Start Practice</button> </Link></span>
                         </div>
                     </div>
                 </div>

@@ -38,10 +38,10 @@ function App() {
           element: <Quiz></Quiz>
 
         },
-        {
-          path: '/about',
-          element: <About></About>
-        }
+        // {
+        //   path: '/about',
+        //   element: <About></About>
+        // }
       ]
     },
     { path: '*', element: <Eror404></Eror404> },
